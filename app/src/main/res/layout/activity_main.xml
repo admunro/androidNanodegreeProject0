@@ -10,50 +10,45 @@
               tools:context=".MainActivity">
 
     <TextView
+        style="@style/TitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/my_nanodegree_apps"/>
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/spotify_streamer_button"
         android:onClick="onSpotifyStreamerButtonClicked"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/spotify_streamer"/>
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/scores_app_button"
         android:onClick="onScoresAppButtonClicked"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/scores_app"/>
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/library_app_button"
         android:onClick="onLibraryAppButtonClicked"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/library_app"/>
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/build_it_bigger_button"
         android:onClick="onBuildItBiggerButtonClicked"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/build_it_bigger"/>
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/xyz_reader_button"
         android:onClick="onXYZReaderButtonClicked"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/xyz_reader"/>
 
     <Button
+        style="@style/ButtonStyle.Red"
         android:id="@+id/capstone_my_own_app_button"
         android:onClick="onCapstoneMyOwnAppButtonClicked"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/capstone_my_own_app"/>
 
 
