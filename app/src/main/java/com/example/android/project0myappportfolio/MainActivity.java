@@ -1,9 +1,12 @@
 package com.example.android.project0myappportfolio;
 
+import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity
@@ -40,4 +43,44 @@ public class MainActivity extends ActionBarActivity
 
         return super.onOptionsItemSelected(item);
     }
+
+
+    private void showToast(String message)
+    {
+        CharSequence text = "This button will launch: " + message;
+
+        Toast.makeText(this.getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+    }
+
+    public void onSpotifyStreamerButtonClicked(View view)
+    {
+        this.showToast("Spotify Streamer");
+    }
+
+    public void onScoresAppButtonClicked(View view)
+    {
+        this.showToast("Scores");
+    }
+
+    public void onLibraryAppButtonClicked(View view)
+    {
+        this.showToast("Library");
+    }
+
+    public void onBuildItBiggerButtonClicked(View view)
+    {
+        this.showToast("Build It Bigger");
+    }
+
+    public void onXYZReaderButtonClicked(View view)
+    {
+        this.showToast("XYZ Reader Streamer");
+    }
+
+    public void onCapstoneMyOwnAppButtonClicked(View view)
+    {
+        this.showToast("Capstone: My Own App");
+    }
+
+
 }
